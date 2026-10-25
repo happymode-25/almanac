@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Personal seal ledger and rendered reports.
+.almanac/
+*.jsonl
+report.html
+tmp-*.html
+*.html
+*.html

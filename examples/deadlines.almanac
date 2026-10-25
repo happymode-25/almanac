@@ -1,0 +1,17 @@
+; A small deadline schedule.
+
+title "Q2 deadlines"
+
+weekend sat sun
+holiday 2026-03-05 "Team offsite"
+holiday 2026-04-03 "Good Friday"
+
+add 10 business days to 2026-03-02
+add 14 calendar days to 2026-03-02
+between 2026-03-02 and 2026-03-16 business days
+between 2026-03-02 and 2026-03-16 calendar days
+next friday after 2026-03-02
+
+check 2026-03-06 is business
+check 2026-03-07 is nonworking
+check 2026-03-05 is nonworking
