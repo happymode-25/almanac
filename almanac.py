@@ -231,7 +231,6 @@ def parse_date(text: str) -> date:
     s = text.strip()
     if not DATE_RE.match(s):
         raise BadDate("not an ISO date: %r" % text)
-        raise BadDate("not an ISO date: %r" % text)
     try:
         d = date.fromisoformat(s)
         if d.isoformat() != s:
